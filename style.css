@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+}
+#main-header{
+    background-color: #27c!important;
+    color: #333;
+    text-align: center;
+    padding: 20px 0px;
+    border-radius: 10px;
+}
+.container ul{
+   width: 80%;
+   margin: auto;
+   list-style: none;
+   padding-left: 350px;
+   border-radius: 10px;
+}
+#main-header h1{
+    text-transform: capitalize;
+    text-transform: uppercase;
+    font-family: cursive, sans-serif;
+    font-size: 20px;
+}
+.container{
+   width: 80%;
+   margin: auto;
+   color: #fff;
+}
+#navbar{
+    padding: 30px 0px;
+    margin-top: 1px;
+    border-radius: 10px;
+    position: fixed;
+}
+#navbar img{
+        height: 40px;
+        padding-left: 20px;
+    }
+#navbar ul{
+    list-style: none;
+    padding-left: 300px;
+}
+#navbar li{
+    background-color: #27c!important;
+    display: inline;
+    text-align: center;
+    margin: auto;
+    border: auto;
+    border-radius: 8px;
+    font-family: cursive, sans-serif;
+    font-size: 30px;
+}
+#navbar a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+    padding: 13px;
+
+}
+#navbar a:hover{
+    background-color: #007bff!important;
+    color: #fff;
+    font-size: 28px;
+    border-radius: 10px;
+}
+.clr{
+    clear: both;
+}
+#showCase{
+background-image: url("13.jpg");
+min-height: 400px;
+ border-radius: 8px;
+}
+#showCase h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 37px;
+    color: #fff;
+    padding-top: 80px;
+}
+.block{
+    width:30.5%;
+    float: left;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    padding: 15px;
+    margin: 10px;
+    color: #fff;
+}
+.main-box{
+    width: 70%;
+    float: left;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.sideBar{
+    width: 30%;
+    float: right;
+    padding: 15px;
+    box-sizing: border-box;
+
+}
+ #main-footer{
+    background-color:  #27c!important;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    padding:  20px;
+    border-radius: 10px;
+}
+@media (max-width:600px){
+.block{
+    width: 100%;
+    float: none;
+    color: #fff;
+}
+.main-box{
+    width: 100%;
+    float: none;
+}
+.sideBar{
+    width: 100%;
+    float: none;
+}
+#navbar a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 7px;
+    
+}
+}
